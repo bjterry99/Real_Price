@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/calc"
+            android:icon="@drawable/ic_money"
+            android:title="@string/calc" />
+    </group>
+
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_info"
+            android:title="@string/info" />
+        <item
+            android:id="@+id/rate"
+            android:icon="@drawable/ic_thumb"
+            android:title="@string/rate" />
+    </group>
+</menu>
